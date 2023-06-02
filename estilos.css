@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 1s;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
